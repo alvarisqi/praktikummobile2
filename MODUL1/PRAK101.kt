@@ -6,8 +6,8 @@ fun main() {
     var nama = readLine();
     print("Umur Anda : ");
     var umur = readLine();
-    print("Suhu Tubuh Anda : ");
-    var suhu = readLine();
+    var suhu = (35..37).random();
+    println("Suhu Tubuh Anda : $suhu\n");
 
     println("Selamat $waktu, $nama");
     println("Umur anda $umur Tahun");
